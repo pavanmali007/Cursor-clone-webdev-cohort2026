@@ -343,6 +343,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 10px 0;
 
 }
 
@@ -353,9 +354,12 @@ main {
     justify-content: space-between;
     align-items: center;
 
+
 }
 
 .review_component {
+    max-width: 420px;
+    height: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -506,3 +510,68 @@ main {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+#changelog_section{
+    /* border: 1px solid white; */
+    width: 100%;
+    padding: 2px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#changelog_heading{
+    font-size: 24px;
+}
+
+#changelog_container{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+    padding: 2px 0;
+
+}
+
+.changelog_date_divs{
+    width: 320px;
+    height: 120px;
+    /* border: 1px solid white; */
+    background-color: #1B1913;
+    border-radius: 7px;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.date_section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+.date_pill{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 2px 10px;
+    border-radius: 24px;
+}
+
+
+
+#changelog_flow_up{
+    color: #ec371b;
+}
+
+
