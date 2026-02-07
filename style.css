@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #14120B;
+    color: #EDECEC;
+}
+
+#container {
+    margin: auto;
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header {
+    /* border: 1px solid white; */
+    width: 100%;
+}
+
+#navbar {
+    /* border: 1px solid white; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+
+}
+
+#cursor_logo {
+    width: 100px;
+    height: 30px;
+    background-image: url("assets/cursor_logo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#navlinks {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.nav_link {
+    font-size: 16px;
+}
+
+#nav_actions {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#sing_in {
+    border: 1px solid rgba(237, 236, 236, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px 10px;
+    border-radius: 25px;
+
+
+
+}
+
+#donwload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px 10px;
+    border-radius: 25px;
+
+    background-color: #EDECEC;
+    color: #14120B;
+
+}
+
+#donwload:hover {
+    background-color: rgba(237, 236, 236, 0.9);
+
+
+}
+
+main{
+    width: 100%;
+    /* border: 1px solid white; */
+    padding: 10px 0;
+    margin: 120px 0;
+}
+
+#heading{
+    font-size: 30px;
+    max-width: 40%;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#donwload_btn{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+    background-color: #EDECEC;
+    color: #14120B;
+    padding: 12px 20px;
+    gap: 10px;
+    margin: 20px 0;
+    border-radius: 100px;
+
+    
+}
+
+#donwload_btn_text{
+    font-size: 18px;
+}
+
+#download_icon{
+    width: 18px;
+    height: 18px;   
+    background-image: url("assets/download.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#hero_img_container {
+    width: 100%;
+    height: 104vh;
+    margin: 50px 0;
+    background-image: url("assets/cursor_hero_img.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+}
+
+#hero_img {
+    width: 500px;
+    height: 500px;
+
+}
+
+#note{
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#brand_container{
+    margin: 20px 0;
+
+    /* border: 1px solid white; */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+#brand1{
+    width: 370px;
+    height: 120px;
+
+    background-image: url("assets/cursor_brand1.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#brand2{
+    width: 370px;
+    height: 120px;
+
+    background-image: url("assets/cursor_brand2.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#brand3{
+    width: 370px;
+    height: 120px;
+
+    background-image: url("assets/cursor_brand3.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#brand4{
+    width: 370px;
+    height: 120px;
+
+    background-image: url("assets/cursor_brand4.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#brand5{
+    width: 370px;
+    height: 120px;
+
+    background-image: url("assets/cursor_brand5.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#brand6{
+    width: 370px;
+    height: 120px;
+
+    background-image: url("assets/cursor_brand6.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#brand7{
+    width: 370px;
+    height: 120px;
+
+    background-image: url("assets/cursor_brand7.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#brand8{
+    width: 370px;
+    height: 120px;
+
+    background-image: url("assets/cursor_brand8.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#casual_img1{
+    width: 100%;
+    height: 110vh;
+    border-radius: 7px;
+
+    background-image: url("assets/casual_img11.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin: 100px 0;
+
+}
+
+#casual_img2{
+    width: 100%;
+    height: 110vh;
+    border-radius: 7px;
+
+
+    background-image: url("assets/casual_img2.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 100px 0;
+}
+
+#casual_img3{
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 110vh;
+    border-radius: 7px;
+
+
+    background-image: url("assets/casual_img3.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin: 100px 0;
+
+}
+
+#new_way_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review_component{
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+    /* border: 1px solid white; */
+    background-color: #1B1913;
+    border-radius: 7px;
+    padding: 20px;
+    gap: 100px;
+
+
+}
+
+#review_text{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#review_profile{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px solid white; */
+
+}
+
+#review_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+
+    background-image: url("assets/dummy/pexels-1.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#profile_side{
+
+}
+
+
+
